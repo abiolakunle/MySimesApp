@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.software.abiol.simesapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".application.SimesApp"
+        android:allowBackup="true"
+        android:icon="@drawable/launcher_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.StartActivity" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:parentActivityName=".activities.StartActivity" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:parentActivityName=".activities.StartActivity" />
+        <activity android:name=".activities.SettingsActivity" />
+        <activity
+            android:name=".activities.StatusActivity"
+            android:parentActivityName=".activities.SettingsActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" /> <!-- optional (needed if default theme has no action bar) -->
+        <activity
+            android:name=".activities.UsersActivity"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity android:name=".activities.ProfileActivity">
+            <intent-filter>
+                <action android:name=" com.software.abiol.simesapp_TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <activity
+            android:name=".activities.ChatActivity"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity android:name=".activities.MySimesBlog" />
+        <activity
+            android:name=".activities.NewPostActivity"
+            android:parentActivityName=".activities.MySimesBlog" />
+        <activity
+            android:name=".activities.CommentsActivity"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity android:name=".activities.UploadToLibraryActivity" />
+        <activity android:name=".activities.Elibrary" />
+        <activity android:name=".activities.MultipleUploads" />
+        <activity android:name=".activities.AddCourse" />
+        <activity android:name=".activities.AllCoursesActivity" />
+        <activity android:name=".activities.WelcomeScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.TimeTableWeek" />
+        <activity android:name=".activities.EditTimetable" />
+        <activity android:name=".activities.TimetableDay" />
+        <activity android:name=".activities.GuestPageActivity" />
+        <activity android:name=".activities.ChatActivityLoadAll" />
+        <activity android:name=".activities.JoinExecutives" />
+        <activity android:name=".activities.MyExecutives"></activity>
+    </application>
+
+</manifest>

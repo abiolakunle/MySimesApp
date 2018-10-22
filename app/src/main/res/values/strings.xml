@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">MySimesApp</string>
+    <string name="need_a_new_account">NEED A NEW ACCOUNT?</string>
+    <string name="log_out">Log out</string>
+    <string name="already_have_account">ALREADY HAVE ACCOUNT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_status">CHANGE STATUS</string>
+    <string name="change_image">CHANGE IMAGE</string>
+    <string name="default_status">Hi there, I\'m an Imyte</string>
+    <string name="send_friend_request">SEND FRIEND REQUEST</string>
+    <string name="decline_friend_request">DECLINE FRIEND REQUEST</string>
+    <string name="Unfriend_this_person">REMOVED FROM FRIENDS LIST</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="firstname">Firstname</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="surname">Surname</string>
+    <string name="message_text">Message Text</string>
+    <string name="_00_00">00:00</string>
+    <string name="image">Image</string>
+    <string name="action_search_text">Search</string>
+    <string name="action_setting_text">Account Settings</string>
+    <string name="action_logout_text">Logout</string>
+    <string name="post_desc_hint">Add Description</string>
+    <string name="new_post_btn_hint">Post blog</string>
+    <string name="dont_have_account">Don\'t have an account? Register now</string>
+    <string name="bottom_home_text">Home</string>
+    <string name="bottom_notification_text">Notification</string>
+    <string name="bottom_ac_text">Account</string>
+    <string name="gallery_text">News</string>
+    <string name="topics_text">Home</string>
+    <string name="announcement_text">Gallery</string>
+
+    <string name="default_notification_channel_id">SIMES_CH_01</string>
+    <string name="loading">Loading......</string>
+
+    <string-array name="Week">
+        <item>MONDAY</item>
+        <item>TUESDAY</item>
+        <item>WEDNESDAY</item>
+        <item>THURSDAY</item>
+        <item>FRIDAY</item>
+        <item>SATURDAY</item>
+    </string-array>
+
+    <string-array name="class_id">
+        <item>nd1</item>
+        <item>nd2</item>
+        <item>nd3</item>
+        <item>hnd1</item>
+        <item>hnd2</item>
+        <item>hnd3</item>
+    </string-array>
+
+    <string-array name="program">
+        <item>full_time</item>
+        <item>part_time</item>
+    </string-array>
+
+    <string-array name="periods">
+        <item>period1</item>
+        <item>period2</item>
+        <item>period3</item>
+        <item>period4</item>
+        <item>period5</item>
+        <item>period6</item>
+        <item>period7</item>
+        <item>period8</item>
+        <item>period9</item>
+    </string-array>
+
+
+    <string-array name="days">
+        <item>monday</item>
+        <item>tuesday</item>
+        <item>wednesday</item>
+        <item>thursday</item>
+        <item>friday</item>
+        <item>saturday</item>
+    </string-array>
+
+    <string-array name="posts">
+        <item>President</item>
+        <item>1st Vice President</item>
+        <item>2nd Vice president</item>
+        <item>General Secretary</item>
+        <item>Assistant Secretary</item>
+        <item>Financial Secretary</item>
+        <item>Sport Director</item>
+        <item>Social Director</item>
+        <item>Welfare Director</item>
+        <item>Treasurer</item>
+        <item>Public Relations Officer</item>
+    </string-array>
+
+    <string-array name="code">
+        <item>19548676</item>
+        <item>26754843</item>
+        <item>34729504</item>
+        <item>49642745</item>
+        <item>58503457</item>
+        <item>65970452</item>
+        <item>74532094</item>
+        <item>83473587</item>
+        <item>92435232</item>
+        <item>03434064</item>
+        <item>11359349</item>
+    </string-array>
+
+
+</resources>

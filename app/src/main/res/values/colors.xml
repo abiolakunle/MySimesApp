@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0292db</color>
+    <color name="colorPrimary1">#039BE5</color>
+    <color name="colorPrimary2">#4fc3f7</color>
+    <color name="colorPrimaryDark">#19212b</color>
+    <color name="colorPrimaryDark1">#262f3d</color>
+    <color name="colorPrimaryDark2">#404854</color>
+    <color name="colorAccent">#f44336</color>
+    <color name="orange">#f38208</color>
+    <color name="orange1">#F0AC1B</color>
+    <color name="orange2">#FFCB2F</color>
+    <color name="user_gray">#B8BBC0</color>
+    <color name="user_gray1">#ECEFF1</color>
+    <color name="white">#ffffff</color>
+
+    <color name="likeBtnGray">#747474</color>
+    <color name="likeBtnAccent">#f44336</color>
+
+
+    <string-array name="colors" translatable="false">
+        <item>#99cc00</item>
+        <item>#33b5e5</item>
+        <item>#0099cc</item>
+        <item>#547bca</item>
+        <item>#aeb857</item>
+        <item>#0292DB</item>
+        <item>#039BE5</item>
+        <item>#4FC3F7</item>
+        <item>#19212B</item>
+        <item>#cccccc</item>
+        <item>#888888</item>
+    </string-array>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1011957358189",
+    "firebase_url": "https://simesapp-822f6.firebaseio.com",
+    "project_id": "simesapp-822f6",
+    "storage_bucket": "simesapp-822f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011957358189:android:db28d7fdc6316f95",
+        "android_client_info": {
+          "package_name": "com.software.abiol.simesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011957358189-rh8r0ot8ovjo1d6j46gtl6hh866a6m25.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.software.abiol.simesapp",
+            "certificate_hash": "11a0ad752542d063d9cf4e7a398d83370204cf76"
+          }
+        },
+        {
+          "client_id": "1011957358189-3qk4iudfuktv86m7tlsbuk2tv0eo4pbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABQK0amc92RxpIR93bbC7FfIZStENplP8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011957358189-3qk4iudfuktv86m7tlsbuk2tv0eo4pbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
